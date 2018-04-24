@@ -40,7 +40,7 @@
   },
   "scripts": {
     "test": "gulp lint unittestcli externaltest",
-    "postinstall": "cd node_modules/pdf.js && npm i && gulp dist"
+    "prepare": "gulp dist"
   },
   "repository": {
     "type": "git",

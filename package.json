@@ -42,7 +42,8 @@
   },
   "scripts": {
     "test": "gulp lint unittestcli externaltest",
-    "prepublish": "gulp dist"
+    "prepublish": "gulp dist",
+    "preinstall": "npm run prepublish"
   },
   "repository": {
     "type": "git",

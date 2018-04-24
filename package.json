@@ -1,6 +1,8 @@
 {
   "name": "pdf.js",
   "version": "2.0.0",
+  "main": "./build/dist/build/pdf.js",
+  "types": "./build/dist/types/pdf.d.ts",
   "devDependencies": {
     "acorn": "^5.5.3",
     "babel-core": "^6.26.0",
@@ -40,7 +42,7 @@
   },
   "scripts": {
     "test": "gulp lint unittestcli externaltest",
-    "prepare": "gulp dist"
+    "prepublish": "gulp dist"
   },
   "repository": {
     "type": "git",
